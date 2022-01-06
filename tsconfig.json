@@ -1,0 +1,28 @@
+
+{
+  "compilerOptions": {
+    "target":
+      "es5",
+    "module":
+      "esnext",
+    "lib": ["es5", "es2015", "es2016", "es2017", "es2018", "es2019", "es2020", "esnext", "dom"],
+    //"declarationDir": "./dist/types",
+    //"outDir": "./dist/lib",
+    //"moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+  },
+  "include": ["packages/**/*.*"],
+  "exclude": ["**/.*/", "**/build", "**/dist", "**/node_modules", "docs/export"]
+}
