@@ -1,0 +1,15 @@
+{
+  "out": "docs",
+  "exclude": ["**/node_modules/**", "**/*.spec.ts", "**/*.test.ts"],
+  "name": "library",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "readme": "./README.md",
+  "entryPointStrategy": "packages",
+  "emit": "docs",
+  "cleanOutputDir": true,
+  "hideGenerator": true,
+  "entryPoints": "./packages/*",
+  "json": "docs/data.json",
+  "pretty": true
+}
