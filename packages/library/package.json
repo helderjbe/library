@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if given string is an url",
   "keywords": [
     "is-url",
