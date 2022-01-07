@@ -1,0 +1,21 @@
+{
+  "name": "library",
+  "version": "0.0.1",
+  "description": "Check if given string is an url",
+  "keywords": [
+    "is-url",
+    "url",
+    "utils",
+    "lib"
+  ],
+  "homepage": "https://libraryjs.com/is-url",
+  "bugs": {
+    "url": "https://github.com/helderjbe/library/issues"
+  },
+  "author": "Helder Esteves",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "sideEffects": false
+}
